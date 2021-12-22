@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 12px;
+    color: rgb(227, 227, 227);
+    font-family: "Share Tech Mono", monospace;
+
+}
+body{
+    
+    background-color: rgb(19, 19, 19);
+}
+
+.about{
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+   
+}
+
+.container-1{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    max-width: 90rem;
+    padding: 2rem;
+    min-height: 60vh;
+    margin: auto;
+    
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 90rem;
+    padding: 2rem;
+    margin: auto;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+
+   
+    border-radius: 50%;
+}
+.text-1{
+    padding-left: 25px;
+}
+.text-1 p{
+    margin-bottom: 2rem;
+}
+hr{
+    margin: 4rem 0;
+    background-image: linear-gradient(to right,#f9690e 0,#639 100%);
+    border: 0;
+    height: 1px;
+    
+    
+}
+.item{
+    padding: 15px;
+    margin: 5px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    
+}
+.item p{
+    max-width: 400px;
+}
+
+.header{
+    text-align: center;
+    margin-top:10%;
+    
+}
+.item i{
+    font-size: 3rem;
+    color: rgb(236, 236, 236);
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+  
+}
+.fa.fa-mobile:before {
+    content: "\f3cd";
+}
+.far.fa-file-code:before{
+    content: "\f1c9";
+}
+.item h3{
+    background: linear-gradient( to right, rgb(230, 100, 37) 0%, rgb(127, 69, 185) 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+    
+
+
+@media only screen and (max-width: 650px) {
+    .container{
+       display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        
+    }
+    .text-1{
+        text-align: center;
+    }
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .item{
+        padding: 15px;
+        margin: 5px;
+        
+    
+        
+    }
+    
+  }
+
+  @media only screen and (min-width: 651px) and (max-width:10000px){
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+
+
+  }
+
